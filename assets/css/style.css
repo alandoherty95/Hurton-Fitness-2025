@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    width: 100%;
+}
+
+/* Navigation Styles */
+.nav-pills .nav-link {
+    color: #062625;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #fcc707 !important;
+    color: #062625 !important;
+}
+
+.nav-pills .nav-link.active {
+    border-color: #062625 !important;
+    background-color: #062625 !important;
+    color: #fcc707 !important;
+}
+
+/* Typography */
+.outline {
+    font-family: 'Roboto Slab', serif;
+    color: #062625;
+    font-weight: bold;
+}
+
+/* Card Styles */
+.card-header {
+    background-color: #062625;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+/* Primary Button Colors */
+.btn-success {
+    border-color: #fcc707;
+    background-color: #fcc707;
+    color: #062625;
+}
+
+.btn-success:hover,
+.btn-success:active {
+    border-color: #062625 !important;
+    background-color: #062625 !important;
+    color: #fcc707 !important;
+}
+
+/* Accordion Styles */
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #062625;
+}
+
+.accordion-button.collapsed {
+    color: #ffffff;
+    background-color: #808080;
+}
