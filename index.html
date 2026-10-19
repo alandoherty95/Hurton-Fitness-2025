@@ -1,178 +1,82 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-    <!-- Meta Tags for SEO & Mobile Responsiveness -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Iain Hurton - Personal Trainer" />
-    <meta name="keywords" content="fitness, training, personal trainer, workout, health, gym" />
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Stylesheet -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-    <!-- Favicon Icons -->
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-
-    <title>Hurton Fitness | Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal training, group fitness and coaching with Iain Hurton. Build confidence, improve fitness and train in a supportive environment.">
+  <title>Hurton Fitness | Train with purpose</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/home-redesign.css" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Navigation Header -->
+  <nav class="navbar navbar-expand-lg site-nav">
     <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <span class="fs-4">Hurton Fitness</span>
-            </a>
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="personal-training.html" class="nav-link">Personal Training</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-            </ul>
-        </header>
+      <a class="navbar-brand" href="index.html"><span class="brand-mark">HF</span><span>HURTON <b>FITNESS</b></span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="personal-training.html">Training</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-cta" href="contact.html">Start a conversation <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <!-- Hero Section with Main Banner -->
-    <div class="container px-2">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-2">
-            <div class="col-12 col-sm-10 col-lg-6">
-                <!-- Hero Image -->
-                <img src="assets/images/HurtonFitnessLogoOnly.jpg" class="d-block mx-lg-auto img-fluid"
-                    alt="Hurton Fitness Logo" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-                <h1 class="outline mb-3">
-                    Hurton Fitness
-                </h1>
-    
-                <p class="lead">
-                    Personal training and group fitness classes in a supportive, friendly environment —
-                    coached by <strong>Iain Hurton</strong>.
-                </p>
-    
-                <p class="text-muted mb-4">
-                    Stay motivated • Build confidence • Improve fitness
-                </p>
-                <a href="https://www.instagram.com/hurtonsfitness/" class="btn btn-lg btn-primary" target="_blank"><i
-                        class="bi bi-info-square"></i> Message Iain Now</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Client Testimonials Section -->
-    <section class="container mt-4">
-        <h3>Client Testimonials</h3>
-        <p class="lead">Read feedback from satisfied clients.</p>
-        <div class="row">
-            <!-- Testimonial 1 -->
-            <div class="col-lg-6 p-3">
-                <div class="card">
-                    <div class="card-header">Personal Training</div>
-                    <div class="card-body">
-                        <p>"I couldn't recommend Iain enough. I did personal training and classes with him. Extremely motivational and always pushed people to do their best. He does fantastic classes and great music. Best personal trainer by far and cannot wait to get back to his classes."</p>
-                        <footer class="blockquote-footer">Breda, aged 24</footer>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonial 2 -->
-            <div class="col-lg-6 p-3">
-                <div class="card">
-                    <div class="card-header">Aqua Aerobics</div>
-                    <div class="card-body">
-                        <p>"I did aqua aerobics twice a week with Iain at Castletroy Park Hotel, all the women loved when Iain was doing the class. His class was great fun, motivational and effective. His wonderful playlists got us moving, old ladies forgot their aches and pains as they exercised to his great music. He cheered everyone up, always had a smile, and his energy and dance moves were a joy to watch."</p>
-                        <footer class="blockquote-footer">Mary, aged 72</footer>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Testimonial 3 -->
-            <div class="col-lg-6 p-3">
-                <div class="card">
-                    <div class="card-header">Swimming Lessons</div>
-                    <div class="card-body">
-                        <p>"Iain was a very professional, courteous and patient swimming instructor. He had a very kind and gentle approach to teaching, he acknowledged my fear in the water and personalised technigues that helped me relax in the water and become confident in my abilities. Thanks to Iain I am now confident in the water and absolutely love swimming. My confidence and ability has definitely grown to a point where I now really enjoy my time in the gym. I highly recommend Iain as a fitness/swim instructor for somebody wanting to reach their individual goals."</p>
-                        <footer class="blockquote-footer">Anne, aged 54</footer>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonial 4 -->
-            <div class="col-lg-6 p-3">
-                <div class="card">
-                    <div class="card-header">Outdoor Bootcamps</div>
-                    <div class="card-body">
-                        <p>"Iain is a professional well-prepared trainer with natural charisma, a positive outlook and a growth mindset. The product he delivers to me has responded to any challenge and consistently improved in quality over time. Iain's classes are an excellent fit for me as they are varied and fun. Iain is very professional and is always there early with class equipment set up ready to greet participants as they arrive. He also has good session plans made but is comfortable to adapt if an extra person turns up or if somebody joins in late."</p>
-                        <footer class="blockquote-footer">Brendan, aged 44</footer>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <main>
+    <section class="hero">
+      <div class="hero-photo" role="img" aria-label="Outdoor fitness bootcamp"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">OUTDOOR BOOTCAMPS · FITNESS · COMMUNITY</p>
+        <h1>Find your<br><em>fitness crew.</em></h1>
+        <p class="hero-copy">Outdoor bootcamps for beginners, returners and anyone who wants to get fitter with a friendly community. Come as you are; build from there.</p>
+        <div class="hero-actions"><a class="button button-yellow" href="https://www.instagram.com/hurtonsfitness/" target="_blank" rel="noopener noreferrer">DM “BOOTCAMP” to Iain <span>↗</span></a><a class="button button-outline" href="#timetable">See how it works</a></div>
+        <div class="hero-note"><span class="note-line"></span> YOUR GOALS. YOUR PACE. YOUR PROGRESS.</div>
+      </div>
+      <div class="hero-stamp">HURTON<br><span>FITNESS</span></div>
     </section>
 
-    <!-- Personal Training Section -->
-    <div class="container px-2">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-2">
-            <div class="col-12 col-sm-10 col-lg-6">
-                <img src="assets/images/HurtonFitnessBootcamp.jpg" class="d-block mx-lg-auto img-fluid" alt="Fitness Bootcamp"
-                    loading="lazy">
-            </div>
-            <div class="col-lg-6">
-                <h3>Personal Training</h3>
-                <p class="lead py-2">Custom training plans to help you achieve your fitness goals.</p>
-                <a href="personal-training.html" class="btn btn-lg btn-success"><i class="bi bi-info-square"></i> More
-                    Info</a>
-            </div>
-        </div>
-    </div>
+    <section class="intro-section section-pad">
+      <div class="container intro-grid">
+        <div><p class="eyebrow eyebrow-dark">GOOD PEOPLE. OUTDOOR TRAINING.</p><h2>Fitness is better<br><span>together.</span></h2></div>
+        <div class="intro-text"><p>New to exercise or getting back into it? Bootcamp is a supportive way to move, build confidence and meet people. Iain coaches the sessions so you can work at your own pace and make progress without feeling you have to keep up with everyone else.</p><a class="text-link" href="about.html">Meet Iain <span>→</span></a></div>
+      </div>
+    </section>
 
-    <!-- Social Media & FAQs Section -->
-    <div class="container pt-4">
-        <div class="row">
-            <!-- Follow on Instagram -->
-            <div class="col-lg-6">
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h3>Follow on Instagram</h3>
-                        <p>Stay updated with fitness tips and motivation.</p>
-                        <a href="https://www.instagram.com/hurtonsfitness/?hl=en" class="btn btn-lg btn-success" target="_blank"><i
-                                class="bi bi-instagram"></i> Instagram Profile</a>
-                    </div>
-                </div>
-            </div>
-            <!-- FAQ Section -->
-            <div class="col-lg-6">
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h3>FAQs</h3>
-                        <p>Find answers to common questions about training.</p>
-                        <a href="about.html#faq" class="btn btn-lg btn-success"><i class="bi bi-question-square"></i>
-                            FAQs</a>
-                    </div>
-                </div>
-            </div>
+    <section class="services-section section-pad">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">BOOTCAMP FIRST</p><h2>More ways to work with Iain</h2></div><p>Outdoor bootcamp is the main event. Explore other coaching options on their own pages.</p></div>
+        <div class="service-grid">
+          <article class="service-card service-featured"><div class="service-number">01 / COMMUNITY</div><div><h3>Outdoor bootcamp</h3><p>Friendly, coached group sessions to help you get fitter, build confidence and enjoy training together.</p><a href="https://www.instagram.com/hurtonsfitness/" target="_blank" rel="noopener noreferrer" class="text-link">DM “BOOTCAMP” for the timetable <span>↗</span></a></div></article>
+          <article class="service-card"><div class="service-number">02 / ONE-TO-ONE</div><div><h3>Personal training</h3><p>Individual support and tailored sessions to help you work towards your own fitness goals.</p><a href="personal-training.html" class="text-link">Explore personal training <span>↗</span></a></div></article>
+          <article class="service-card"><div class="service-number">03 / IN THE WATER</div><div><h3>Swimming coaching</h3><p>Patient, supportive instruction focused on building comfort and confidence in the water.</p><a href="contact.html" class="text-link">Ask about lessons <span>↗</span></a></div></article>
         </div>
-    </div>
+        <p class="service-footnote">Bootcamp days and spaces can change. DM Iain for the latest timetable and to book your spot.</p>
+      </div>
+    </section>
 
-    <!-- Footer Section -->
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <p class="col-md-4 mb-0 text-muted">&copy; Hurton Fitness 2025</p>
-            <p class="col-md-4 mb-0 text-muted text-center">AMD</p>
-            <ul class="nav col-md-4 justify-content-end">
-                <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
-                <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
-                <li class="nav-item"><a href="gallery.html" class="nav-link px-2 text-muted">Gallery</a></li>
-                <li class="nav-item"><a href="about.html#faq" class="nav-link px-2 text-muted">FAQs</a></li>
-            </ul>
-        </footer>
-    </div>
+    <section id="timetable" class="timetable-section section-pad"><div class="container timetable-inner"><div><p class="eyebrow eyebrow-dark">JOIN A SESSION</p><h2>Find a time that<br><span>works for you.</span></h2><p>Message Iain on Instagram for the current weekly timetable, session details and available spaces. Send the word <strong>BOOTCAMP</strong> and he’ll help you get booked in.</p><a class="button button-yellow" href="https://www.instagram.com/hurtonsfitness/" target="_blank" rel="noopener noreferrer">DM “BOOTCAMP” <span>↗</span></a></div><div class="timetable-note"><span class="note-icon">↗</span><h3>New to bootcamp?</h3><p>Tell Iain you’re a beginner or returning to exercise. He’ll explain what to expect and help you choose a session.</p></div></div></section>
+
+    <section class="quote-section section-pad">
+      <div class="container"><p class="eyebrow">KIND WORDS FROM CLIENTS</p><h2>Strong bodies. Supportive people.<br><em>Real progress.</em></h2>
+        <div class="quote-grid">
+          <blockquote><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>“Extremely motivational and always pushed people to do their best. Fantastic classes, great music.”</p><cite>— Breda · Group classes</cite></blockquote>
+          <blockquote><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>“Professional, courteous and patient… helped me relax in the water and become confident in my abilities.”</p><cite>— Anne · Swimming instruction</cite></blockquote>
+        </div>
+        <a class="review-link" href="https://g.page/r/CVZDU6f_lt9kEBk/review" target="_blank" rel="noopener noreferrer">Leave a Google review <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="closing-cta"><div class="container closing-inner"><div><p class="eyebrow eyebrow-dark">YOUR NEXT STEP STARTS HERE</p><h2>Ready to get moving?</h2><p>Want to try a session? DM Iain the word BOOTCAMP for the latest timetable and to reserve your spot.</p></div><a class="button button-dark" href="https://www.instagram.com/hurtonsfitness/" target="_blank" rel="noopener noreferrer">DM “BOOTCAMP” <span>↗</span></a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="index.html">HURTON FITNESS</a><div class="footer-links"><a href="personal-training.html">Training</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="https://www.instagram.com/hurtonsfitness/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div><p>© <span id="year">2026</span> Hurton Fitness</p></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

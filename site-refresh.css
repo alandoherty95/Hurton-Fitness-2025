@@ -1,0 +1,26 @@
+/* Shared visual refresh for the existing inner pages. */
+:root{--hf-ink:#122d2a;--hf-teal:#174e48;--hf-yellow:#f5cf45;--hf-cream:#f7f5ef;--hf-muted:#66736e}
+html{scroll-behavior:smooth}body{font-family:'DM Sans',system-ui,-apple-system,sans-serif;color:var(--hf-ink);background:var(--hf-cream);line-height:1.65}
+body> .container{max-width:1160px}
+body> .container header{border:0!important;border-bottom:1px solid #dce2dc!important;padding:18px 0!important;margin-bottom:0!important;align-items:center}
+body> .container header>a{font-family:Oswald,'Arial Narrow',sans-serif;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--hf-ink)!important}
+body> .container header .nav{gap:5px}
+body> .container header .nav-link{border-radius:999px;color:var(--hf-ink);font-weight:600;padding:.55rem .9rem}
+body> .container header .nav-link:hover,body> .container header .nav-link.active{background:var(--hf-teal);color:white}
+main .container{max-width:1080px}
+main .container.py-5.text-center:first-child{padding:75px 20px 45px!important;text-align:left!important}
+h1,h2,h3,.outline{font-family:Oswald,'Arial Narrow',sans-serif;font-weight:600;letter-spacing:-.015em;color:var(--hf-ink)}
+h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.04}h2{font-size:clamp(1.8rem,4vw,3rem)}
+.lead{max-width:700px;color:#53645e;font-size:1.15rem}
+main .container.py-4,main .container.py-5{padding-top:2.7rem!important;padding-bottom:2.7rem!important}
+main .card{border:1px solid #e1e5df;border-radius:18px;overflow:hidden;box-shadow:0 8px 25px #102c2810;background:#fff}
+main .card-header{background:var(--hf-teal);color:#fff;font-weight:700;border:0;padding:1rem 1.2rem}
+main .card-body{padding:1.35rem}
+main .btn-primary,main a.btn-primary{background:var(--hf-yellow);border-color:var(--hf-yellow);color:var(--hf-ink);font-weight:700;border-radius:999px;padding:.85rem 1.4rem}
+main .btn-primary:hover{background:#e7bd2d;border-color:#e7bd2d;color:var(--hf-ink)}
+main ul li{margin-bottom:.6rem}
+main section.container{border-radius:0}
+main section.container.text-center:not(:first-child){text-align:left!important}
+body> .container footer{border-color:#dce2dc!important;color:#66736e;font-size:.9rem}
+body> .container footer .nav-link{color:#66736e!important}
+@media(max-width:700px){body> .container header{gap:14px}body> .container header .nav{flex-wrap:wrap}body> .container header .nav-link{padding:.45rem .65rem;font-size:.9rem}main .container.py-5.text-center:first-child{padding:48px 16px 25px!important}main .container.py-4,main .container.py-5{padding-top:2rem!important;padding-bottom:2rem!important}}
